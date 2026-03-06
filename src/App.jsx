@@ -6,12 +6,14 @@ import AccountSeting from "./pages/AccountSettings"
 function App(){
   return(
     <BrowserRouter>
+   < div className = "mobile-frame">
     <Routes>
       <Route path = "/" element = {<Welcome/>} />
       <Route path = "/createAccount" element = {<CreateAccount/>} />
       <Route path = "/AccountSetting" element = {<AccountSeting/>} />
 
     </Routes>
+    </div>
     </BrowserRouter>
   );
 }

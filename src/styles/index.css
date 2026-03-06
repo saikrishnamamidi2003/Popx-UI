@@ -4,7 +4,20 @@
   box-sizing: border-box;
 }
 body{
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;;
-  
+  font-family: "Rubik", sans-serif;
+  background: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mobile-frame{
+  width: 280px;
+  height: 599px;
+  background: #f8f9fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
