@@ -37,12 +37,15 @@ function AccountSettings() {
           Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore
           Magna Aliquyam Erat, Sed Diam
         </p>
+        
+        <div className="bottom-divider"></div>
 
       </div>
 
       
     <div className="bottom-divider"></div>
     </div>
+    
     
   );
 }
