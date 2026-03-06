@@ -29,7 +29,7 @@ function CreateAccount(){
 
       <button 
         className="create-btn"
-        onClick={()=> navigate("/accountSetting")}
+        onClick={()=> navigate("/accountSettings")}
       >
         Create Account
       </button>

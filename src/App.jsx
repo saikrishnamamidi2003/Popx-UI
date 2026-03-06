@@ -1,7 +1,7 @@
 import{BrowserRouter, Routes, Route} from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import CreateAccount from "./pages/CreateAccount";
-import AccountSeting from "./pages/AccountSettings"
+import AccountSetings from "./pages/AccountSettings"
 
 function App(){
   return(
@@ -10,7 +10,7 @@ function App(){
     <Routes>
       <Route path = "/" element = {<Welcome/>} />
       <Route path = "/createAccount" element = {<CreateAccount/>} />
-      <Route path = "/AccountSetting" element = {<AccountSeting/>} />
+      <Route path = "/AccountSettings" element = {<AccountSetings/>} />
 
     </Routes>
     </div>

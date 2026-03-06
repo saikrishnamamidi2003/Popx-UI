@@ -16,7 +16,7 @@ function Welcome(){
                   Create Account
                 </button>
 
-                <button className="login-btn" onClick={()=> navigate("/accountSetting")}>
+                <button className="login-btn" onClick={()=> navigate("/AccountSettings")}>
                     Already Registered? Login
                 </button>
 
