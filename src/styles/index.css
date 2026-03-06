@@ -85,46 +85,96 @@ body{
 }
 
 /* Create Account Page */
-.create-container{
+.create-page{
+  height:100%;
   display:flex;
   flex-direction:column;
-  height:100%;
 }
 
-.create-container h2{
+.create-title{
   font-size:22px;
   font-weight:600;
-  color:var(--color-primary);
   margin-bottom:25px;
 }
 
-/* Input fields */
-.create-container input{
-  padding:12px;
-  margin-bottom:15px;
+.form-group{
+  position:relative;
+  margin-bottom:18px;
+}
 
-  border:1px solid var(--color-light-gray);
+.form-group label{
+  position:absolute;
+  top:-8px;
+  left:12px;
+
+  background:#f7f8f9;
+
+  font-size:12px;
+  padding:0 4px;
+
+  color:#6C25FF;
+}
+
+.form-group label span{
+  color:red;
+}
+
+.form-group input{
+  width:100%;
+  padding:12px;
+
+  border:1px solid #CBCBCB;
   border-radius:6px;
 
   font-size:14px;
   outline:none;
+
+  background:transparent;
 }
 
-/* Agency radio section */
-.agency{
-  margin-bottom:20px;
+.agency-section{
+  margin-top:5px;
 }
 
-.agency p{
+.agency-section p{
   font-size:14px;
-  margin-bottom:10px;
+  margin-bottom:8px;
 }
 
-.agency label{
+.agency-section span{
+  color:red;
+}
+
+.radio-group{
+  display:flex;
+  gap:20px;
+}
+
+.radio-group label{
   font-size:14px;
-  margin-right:15px;
 }
 
+.radio-group input{
+  margin-right:6px;
+  accent-color:#6C25FF;
+}
+
+.submit-btn{
+  margin-top:auto;
+
+  width:100%;
+  padding:14px;
+
+  border:none;
+  border-radius:6px;
+
+  background:linear-gradient(90deg,#6C25FF,#6C25FF);
+
+  color:white;
+  font-weight:500;
+
+  cursor:pointer;
+}
 /* Account Settings Page */
 
 .account-container{
